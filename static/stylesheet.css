@@ -1,0 +1,27 @@
+body {
+    background: url(https://ih1.redbubble.net/image.4162931027.8731/flat,750x,075,f-pad,750x1000,f8f8f8.jpg) no-repeat center center fixed;
+    background-size: auto;
+    background-color: rgb(255, 255, 255); 
+    font-size: medium;
+    overflow-y: scroll;
+}
+
+.homeButton {
+    position: absolute;
+    font-size: 14px;
+    top: 25px; 
+    left: 910px; 
+    padding: 10px 35px; 
+    background-color: #1d1a1a;
+    color: #ffffff; 
+    text-decoration: none; 
+    text-wrap: n;
+}
+
+.actionpic {
+    background: url(https://www.brooklynvegan.com/wp-content/uploads/2021/09/22/attachment-fuck-thats-delicious-action-bronson-1052x592.jpeg?t=1689199464) no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgb(255, 255, 255); 
+    position: absolute;
+
+}

@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %} Food API Web App {% endblock %}
+
+{% block content %}
+  <h1>Food API App</h1>
+  <form action="/" method="GET">
+    <input type="text" id="RecipeSearch" name="search">
+    <button type="submit">Get list of meals</button>
+  </form>
+  <div id="responserecipie"></div> 
+  <!-- <form action="{{ url_for('get_meal_details', meal_id=meal.idMeal) }}" method="get">
+    <button type="submit">Get Meal Details</button>
+  </form> -->
+
+  {% if meals %}
+    <h4>Recipe Results</h4>
+    <ol>
+      {% for meal in meals %}
+        <li>{{meal.strMeal }}</li>
+      {% endfor %}
+    </ol>
+  {% endif %}
+{% endblock %}
